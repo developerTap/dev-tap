@@ -85,44 +85,42 @@ clang hello.c -o ./hello.wasm
 다음은 웹 어셈블리 코드를 로드하고 실행하는 실제 타입스크립트 코드입니다.
 
 ```tsx
-import { Wasm } from '@vscode/wasm-wasi';
-import { commands, ExtensionContext, Uri, window, workspace } from 'vscode';
+import { Wasm } from "@vscode/wasm-wasi"
+import { commands, ExtensionContext, Uri, window, workspace } from "vscode"
 
 export async function activate(context: ExtensionContext) {
   // WASM API 로드합니다.
-  const wasm: Wasm = await Wasm.load();
+  const wasm: Wasm = await Wasm.load()
 
-	// C 예제를 실행하는 명령어 등록합니다.
-  commands.registerCommand('wasm-wasi-c-example.run', async () => {
-		// WASM 프로세스에 studio를 제공하기 위해 의사 터미널 생성합니다.
-    const pty = wasm.createPseudoterminal();
+  // C 예제를 실행하는 명령어 등록합니다.
+  commands.registerCommand("wasm-wasi-c-example.run", async () => {
+    // WASM 프로세스에 studio를 제공하기 위해 의사 터미널 생성합니다.
+    const pty = wasm.createPseudoterminal()
     const terminal = window.createTerminal({
-      name: 'Run C Example',
+      name: "Run C Example",
       pty,
-      isTransient: true
-    });
-    terminal.show(true);
+      isTransient: true,
+    })
+    terminal.show(true)
 
     try {
-			// WASM 모듈 로드하고 JS 코드 확장자와 함께 저장합니다.
-			// 따라서 VS Code 파일 시스템 API를 사용 할 수 있고, 
-			// 코드가 데스크톱이나 웹에서 실행과 상관없이 독립적으로 만들어집니다.
-      const bits = await workspace.fs.readFile(
-        Uri.joinPath(context.extensionUri, 'hello.wasm')
-      );
-      const module = await WebAssembly.compile(bits);
+      // WASM 모듈 로드하고 JS 코드 확장자와 함께 저장합니다.
+      // 따라서 VS Code 파일 시스템 API를 사용 할 수 있고,
+      // 코드가 데스크톱이나 웹에서 실행과 상관없이 독립적으로 만들어집니다.
+      const bits = await workspace.fs.readFile(Uri.joinPath(context.extensionUri, "hello.wasm"))
+      const module = await WebAssembly.compile(bits)
       // WASM 프로세스 생성합니다.
-      const process = await wasm.createProcess('hello', module, { stdio: pty.stdio });
-			// 프로세스를 실행하고 결과를 기다립니다.
-      const result = await process.run();
+      const process = await wasm.createProcess("hello", module, { stdio: pty.stdio })
+      // 프로세스를 실행하고 결과를 기다립니다.
+      const result = await process.run()
       if (result !== 0) {
-        await window.showErrorMessage(`Process hello ended with error: ${result}`);
+        await window.showErrorMessage(`Process hello ended with error: ${result}`)
       }
     } catch (error) {
-			// 에러 메시지를 보여줍니다.
-      await window.showErrorMessage(error.message);
+      // 에러 메시지를 보여줍니다.
+      await window.showErrorMessage(error.message)
     }
-  });
+  })
 }
 ```
 

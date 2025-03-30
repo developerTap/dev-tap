@@ -1,6 +1,15 @@
 ---
-title: Welcome to Quartz
+title: developer Tap
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+**Hi, I'm Taehyeon Kim 👋**
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Tap-Kim)
+[![Translation Blog](https://img.shields.io/badge/Translation%20Blog-11BB77?style=for-the-badge&logo=velog&logoColor=white)](https://velog.io/@tap_kim)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/taehyeon-kim-44432bb6/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rlaxogus0517@gmail.com)
+
+## Career.
+
+- 이스트소프트 (2022.04.04 ~ ing)
+- 더존비즈온 (2018.05 ~ 2022.03)
