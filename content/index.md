@@ -9,6 +9,7 @@ comments: false
 [![Translation Blog](https://img.shields.io/badge/Translation%20Blog-11BB77?style=for-the-badge&logo=velog&logoColor=white)](https://velog.io/@tap_kim)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/taehyeon-kim-44432bb6/)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rlaxogus0517@gmail.com)
+[![Old Blog](<https://img.shields.io/badge/(구)%20블로그-FF7043?style=for-the-badge&logo=tistory&logoColor=white>)](https://ironist-tapkim.tistory.com/)
 
 ## Career.
 
