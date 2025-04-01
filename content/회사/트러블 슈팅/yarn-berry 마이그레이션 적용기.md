@@ -1,5 +1,11 @@
 ---
 lastmod: 2023-07-31
+tags:
+  - yarn
+  - yarn-berry
+  - node_modules
+  - pnp
+  - zero-install
 ---
 
 ![[yarn-berry 마이그레이션 적용기1.webp]]

@@ -1,5 +1,11 @@
 ---
 lastmod: 2024-10-06
+tags:
+  - react
+  - suspense
+  - fetch
+  - promise
+  - tanstack
 ---
 
 ![[Suspense의 데이터 페칭 감지 방법0.png]]

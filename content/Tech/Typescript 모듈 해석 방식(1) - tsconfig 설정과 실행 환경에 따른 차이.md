@@ -1,5 +1,12 @@
 ---
 lastmod: 2025-03-02
+tags:
+  - typescript
+  - tsconfig
+  - module
+  - resolution
+  - cjs
+  - esm
 ---
 
 이번 글에선 타입 스크립트에서 `modules`의 기초가 되는 `Module Resolution`이 어떠한 배경으로 나오게 되는지 알기 위해 **CommonJS(CJS)와 ECMAScript 모듈(ESM)의 차이**, 그리고 **타입스크립트가 모듈을 어떻게 해석하고 변환하는지** 상세 다룰 예정이다.

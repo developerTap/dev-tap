@@ -1,5 +1,11 @@
 ---
 lastmod: 2024-01-26
+tags:
+  - typescript
+  - tsserver
+  - lsp
+  - json 프로토콜
+  -
 ---
 
 ![[TSserver 오픈소스 톺아보기1.png]]

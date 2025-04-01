@@ -1,5 +1,10 @@
 ---
 lastmod: 2023-09-27
+tags:
+  - cjs
+  - commonjs
+  - esm
+  - ESModule
 ---
 
 > 참고) 본 글은 feconf2022의 박서진 님의 발표 영상을 참고하여 정리한 글입니다.

@@ -1,5 +1,13 @@
 ---
 lastmod: 2024-01-06
+tags:
+  - sharp
+  - next.js
+  - next/image
+  - docker
+  - standalone
+  - libuv
+  - CI/CD
 ---
 
 ![[Sharp & Docker 이슈를 통한 이미지 최적화기(feat.Next.js)1.png]]

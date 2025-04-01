@@ -1,5 +1,8 @@
 ---
 lastmod: 2024-10-27
+tags:
+  - radix
+  - react
 ---
 
 ## 개요

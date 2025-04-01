@@ -1,5 +1,11 @@
 ---
 lastmod: 2025-03-09
+tags:
+  - typescript
+  - module
+  - resolution
+  - host
+  - bundler
 ---
 
 지난 [타입 스크립트 모듈 해석 방식 - tsconfig 설정과 실행 환경에 따른 차이](<./Typescript%20모듈%20해석%20방식(1)%20-%20tsconfig%20설정과%20실행%20환경에%20따른%20차이.md>) 포스팅 다음 글로, Typescript의 중요한 옵션 중 하나인 `Moduel Resolution`에 대해서 알아보려고한다. 먼저 Module Resolution이 무엇인지, 이를 해석하는 방식이 어떻게 되고, 다양한 모듈에 대한 대응 방식 등에 대해 정리해보았다.

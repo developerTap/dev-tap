@@ -1,5 +1,9 @@
 ---
 lastmod: 2024-11-24
+tags:
+  - 브라우저
+  - crp
+  - optimize
 ---
 
 웹 페이지는 최초 렌더링 단계나 네트워크에서 렌더링/파서 차단(redner-blocking, parser-blocking)을 어떻게 다루냐에 따라 성능에 크게 좌우가 된다. 그 중에서 CRP(Critical Rendering Path)가 어떻게 흘러가는지 이해하고, HTML 속성과 CSS 처리 옵션을 다룰 줄 알면 사용자 경험을, 개선을 크게 향상 시킬 수 있다.

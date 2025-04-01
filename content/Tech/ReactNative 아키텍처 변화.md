@@ -1,5 +1,10 @@
 ---
 lastmod: 2024-04-13
+tags:
+  - react
+  - react-native
+  - bridge
+  - jsi
 ---
 
 ![[ReactNative 아키텍처 변화1.png]]
