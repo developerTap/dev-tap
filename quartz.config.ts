@@ -14,8 +14,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: {
       provider: "google",
-      tagId: "G-2Y6W4RZ8KX",
-      host: "https://www.googletagmanager.com",
+      tagId: "G-4MJEEQXS8K",
     },
     locale: "ko-KR",
     baseUrl: "developertap.github.io/dev-tap",
