@@ -5,7 +5,7 @@ const date = tp.date.now("YYYY-MM-DD");
 
 ---
 title: <%= title %>
-date: <%= date %>
+lastmod: <%= date %>
 tags:
   - tag1
   - tag2
