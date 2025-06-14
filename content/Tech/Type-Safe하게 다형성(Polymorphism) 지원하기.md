@@ -185,4 +185,4 @@ const ref2 = useRef<HTMLAnchorElement>(null)
 
 ## 마무리
 
-디자인 시스템은 실무자들에게 자주 사용되는 내용
+디자인 시스템은 "시스템"화 되어있는 상태를 유지해야핟
