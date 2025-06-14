@@ -12,7 +12,7 @@ tags:
 이제 컴포넌트의 `다형성`을 지원하는 구조에 대해 알아보자. 필자는 실제 적용 시 많이 참고했던  
  [Type-Safe하게 다형성 지원하기](https://f-lab.kr/blog/polymorphism-with-type-safe), [Polymorphic한 React 컴포넌트 만들기](https://kciter.so/posts/polymorphic-react-component/)를 기준으로 정리했다.
 
-Polymorphism 컴포넌트는 말 그대로 `여러 형태를 가지는 컴포넌트`이다.
+`Polymorphism` 컴포넌트는 말 그대로 `여러 형태를 가지는 컴포넌트`이다.
 
 - 하나의 컴포넌트에 다양한 `시멘틱`을 표현할 수 있는 UI 컴포넌트
 - 하나의 컴포넌트에 다양한 `속성`을 가질 수 있는 UI 컴포넌트
@@ -182,3 +182,7 @@ const ref2 = useRef<HTMLAnchorElement>(null)
   href={EXTERNAL_BASE_URL.STUDIO + 'project/new'}
 />
 ```
+
+## 마무리
+
+디자인 시스템은 실무자들에게 자주 사용되는 내용
