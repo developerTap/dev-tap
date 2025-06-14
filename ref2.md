@@ -12,3 +12,7 @@ tags:
 draft: true
 published: false
 ---
+
+<!-- 댓글 영역 -->
+title: Comments disabled here!
+comments: false
