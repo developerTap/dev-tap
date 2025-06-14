@@ -1,15 +1,6 @@
-\---
 
-lastmod: 2024-04-13
-
+---
+lastmod: 
 tags:
-
-- react
-
-- react-native
-
-- bridge
-
-- jsi
-
+- tag1
 ---
