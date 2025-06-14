@@ -3,7 +3,7 @@ title: dev Tap
 comments: false
 ---
 
-**제품에 집중하여 사용자 경험을 최적화하며, 구현을 넘어서 구조를 설계하는 프런트엔드 엔지니어 김태현입니다. 👋**
+**제품에 집중하여 사용자 경험을 최적화하며, 구현을 넘어서 구조를 설계하는 소프트웨어 엔지니어 김태현입니다. 👋**
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Tap-Kim)
 [![Translation Blog](https://img.shields.io/badge/Translation%20Blog-11BB77?style=for-the-badge&logo=velog&logoColor=white)](https://velog.io/@tap_kim)
