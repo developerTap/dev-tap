@@ -3,7 +3,8 @@ lastmod:
 tags:
 - 
 ---
-## Type-Safe하게 다형성(Polymorphism) 지원하기
+
+이번 글은 [[실용적인 사내 디자인 시스템 설계와 사용 그리고 확장성]]과 연결된다. 내용이 다소 
 
 마지막으로 컴포넌트의 `다형성`을 지원하는 구조에 대해 알아보자. 필자는 실제 적용 시 많이 참고했던  
  [Type-Safe하게 다형성 지원하기](https://f-lab.kr/blog/polymorphism-with-type-safe), [Polymorphic한 React 컴포넌트 만들기](https://kciter.so/posts/polymorphic-react-component/)를 기준으로 정리했다.
