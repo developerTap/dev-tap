@@ -11,7 +11,7 @@ export const Robots: QuartzEmitterPlugin = () => ({
     const robotsContent = `User-agent: *
 Allow: /
 
-Sitemap: https://${baseUrl}/sitemap.xml`
+`
 
     yield write({
       ctx,
