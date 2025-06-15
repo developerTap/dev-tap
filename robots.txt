@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://developertap.github.io/dev-tap//sitemap.xml
