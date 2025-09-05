@@ -8,13 +8,12 @@ export const Robots: QuartzEmitterPlugin = () => ({
     const cfg = ctx.cfg.configuration
     const baseUrl = cfg.baseUrl ?? ""
 
-    const robotsContent = `
-    User-agent: *
-    Disallow: /
-    Allow : /
+    const robotsContent = `User-agent: *
+Disallow: /
+Allow : /
 
-    User-agent: bingbot
-    Crawl-delay: 20
+User-agent: bingbot
+Crawl-delay: 20
 `
 
     yield write({
